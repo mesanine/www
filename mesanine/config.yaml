@@ -1,0 +1,6 @@
+languageCode: "en-us"
+title: "Mesanine Linux"
+baseurl: "http://localhost"
+theme: "hugo-theme-learn"
+params:
+  menu: ["getting-started", "components", "notice"]
