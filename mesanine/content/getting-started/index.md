@@ -7,19 +7,19 @@ next = "/getting-started/running"
 
 # Welcome To Mesanine!
 
-Mesanine is a container oriented Linux distribution for running a diverse range of workloads on [Apache Mesos](https://mesos.apache.org). It designed to be minimal, immutable, secure, and reliable. It is built from the ground up with the new [LinuxKit](https://github.com/linuxkit/linuxkit) platform from the [Moby](https://github.com/moby/tool) project.
+Mesanine is a container oriented Linux distribution for running a diverse range of workloads on [Apache Mesos](https://mesos.apache.org). It designed to be minimal, secure, and simple to manage. It is built from the ground up with the new [LinuxKit](https://github.com/linuxkit/linuxkit) platform from the [Moby](https://github.com/moby/tool) project. We are actively looking for feedback and contributors! Please feel free to open up an [issue](https://github.com/mesanine/mesanine/issues) on Github.
 
-**Mesanine is just getting started and not yet suitable for production use!**
+**Mesanine is still in very early stages of development, and not yet suitable for real world use!**
 
 
-## Why Are You Building Mesanine?
+### Why Are You Building Mesanine?
 
 Mesos is arguably the most proven and powerful container orchestration and resource scheduler in the industry 
 but it can also be very complicated and challenging to administer. Having maintained large Mesos installations 
 for years we aim to improve and modernize some of the areas we consider challenging about existing platforms
 and tooling. 
 
-## What About DC/OS?
+### What About DC/OS?
 
 [DC/OS](https://dcos.io) is a "distributed operating system" based around Apache Mesos designed and
 created by [Mesosphere](https://mesosphere.com/). If you are serious about running Mesos in production

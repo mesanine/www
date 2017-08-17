@@ -1,7 +1,7 @@
 +++
 title = "Notice"
 chapter = true
-prev = "/components/gaffer"
+prev = "/components/ignition"
 +++
 
 # Credits

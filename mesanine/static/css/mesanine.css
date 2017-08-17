@@ -22,10 +22,10 @@
 
 /* Color of all links, including arrows to get to previous and next pages */
 a {
-    color: #0e4563;
+  color: #00bdf3;
 }
 a:hover {
-   color: #00bdf3;
+  color: #0e4563;
 }
 
 #body img {

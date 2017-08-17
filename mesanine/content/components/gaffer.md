@@ -7,18 +7,17 @@ next = "/components/ignition"
 
 # Gaffer
 
-## Operation
+Gaffer is the init system and process manager for [Mesanine](https://github.com/mesanine). It is designed to control important system and user processes by launching 
+containers with [Runc](https://github.com/opencontainers/runc). Gaffer aims to be compatible with [Linuxkit](https://github.com/linuxkit/linuxkit) which is used to 
+build Mesanine. While components in Linuxkit have generally very discrete functions, Gaffer takes a more encompassing and opinionated approach to system configuration.
 
-Gaffer is the init manager that is installed on all Mesanine servers. It's primary role is to launch runc bundles which make up all the essential services on a given host. Gaffer also runs a small RPC service that allows it to be managed remotely. 
 
-## Plugins
+## Building
 
-Gaffer supports running different plugins for managing logs, monitoring, etc. Some of these plugins are not yet fully developed.
+    go get github.com/mesanine/gaffer
+    cd $GOPATH/src/github.com/mesanine/gaffer
+    make docker
 
-### Load Balancing
+## Extending
 
-### Logging
-
-### Monitoring
-
-### HTTP UI
+Everything in Gaffer is a plugin. Plugins emit and respond to events across a shared `EventBus`. To add new features you Gaffer you must implement the `Plugin` interface and register it when Gaffer is initialized.
