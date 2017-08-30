@@ -2,7 +2,7 @@
 title = "Gaffer"
 weight = 3
 prev = "/components/master"
-next = "/components/ignition"
+next = "/components/ginit"
 +++
 
 # Gaffer

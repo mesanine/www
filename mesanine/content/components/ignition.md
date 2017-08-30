@@ -1,7 +1,7 @@
 +++
 title = "Ignition"
-weight = 4
-prev = "/components/gaffer"
+weight = 5
+prev = "/components/ginit"
 next = "/notice"
 +++
 
