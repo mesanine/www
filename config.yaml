@@ -3,4 +3,4 @@ title: "Mesanine Linux"
 baseurl: "http://mesanine.co"
 theme: "hugo-theme-learn"
 params:
-  menu: ["getting-started", "components", "notice"]
+  menu: ["os", "gaffer", "mesos-cli", "notice"]

@@ -1,8 +1,8 @@
 +++
-title = "Getting Started"
+title = "Mesanine"
 weight = -10
 chapter = true
-next = "/getting-started/running"
+next = "/os/architecture"
 +++
 
 # Welcome To Mesanine!

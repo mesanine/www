@@ -1,8 +1,8 @@
 +++
 title = "Gaffer"
 weight = 3
-prev = "/components/master"
-next = "/components/ginit"
+prev = "/os/installation"
+next = "/mesos-cli"
 +++
 
 # Gaffer

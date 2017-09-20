@@ -1,7 +1,7 @@
 +++
 title = "Notice"
 chapter = true
-prev = "/components/ignition"
+prev = "/mesos-cli/gif_recipe"
 +++
 
 # Credits
